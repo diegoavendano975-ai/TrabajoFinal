@@ -63,4 +63,12 @@ Main()
 | MostrarResumenLote       | Mostrar avance parcial              |
 | MostrarConsolidadoFinal  | Mostrar resumen final               |
 
+# Sobrecarga Implementada
+
+Sin horas extra
+
+static double CalcularSalarioBruto(
+    double horasNormales,
+    double tarifaHora)
+
 
