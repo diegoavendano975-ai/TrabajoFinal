@@ -65,10 +65,22 @@ Main()
 
 # Sobrecarga Implementada
 
-Sin horas extra
+## Sin horas extra
 
+```csharp
+static double CalcularSalarioNeto(double salarioBruto)
+{
+    return salarioBruto * FACTOR_PAGO_NETO;
+}
+```
+
+## Con horas extra
+
+```csharp
 static double CalcularSalarioBruto(
     double horasNormales,
+    double horasExtra,
     double tarifaHora)
+```
 
 
