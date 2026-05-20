@@ -29,6 +29,9 @@ Eliminar números mágicos mediante constantes.
 
 # Arquitectura del Programa
 
+## Arquitectura del Programa
+
+```text
 Main()
 │
 └── ProcesarLoteEmpleados()
@@ -43,4 +46,5 @@ Main()
     ├── MostrarErrorEmpleado()
     ├── MostrarResumenLote()
     └── MostrarConsolidadoFinal()
+```
 
