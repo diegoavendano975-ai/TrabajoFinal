@@ -30,30 +30,17 @@ Eliminar números mágicos mediante constantes.
 # Arquitectura del Programa
 
 Main()
-
 │
-
 └── ProcesarLoteEmpleados()
-
     │
-    
     ├── TryProcesarEmpleado()
-    
     │   │
-    
     │   ├── DatosEmpleadoValidos()
-    
     │   ├── CalcularSalarioBruto()
-    
     │   └── CalcularSalarioNeto()
-    
     │
-    
     ├── MostrarResultadoEmpleado()
-    
     ├── MostrarErrorEmpleado()
-    
     ├── MostrarResumenLote()
-    
     └── MostrarConsolidadoFinal()
 
