@@ -84,4 +84,45 @@ static double CalcularSalarioBruto(
 ```
 La segunda versión calcula el recargo de horas extra utilizando un factor de 1.5.
 
+# Casos de Prueba
+| ID | Entrada                         | Esperado                     | Resultado |
+| -- | ------------------------------- | ---------------------------- | --------- |
+| T1 | horas=40, tarifa=15000          | bruto=600000, neto=552000    | Correcto  |
+| T2 | horas=0, tarifa=15000           | rechazo con mensaje claro    | Correcto  |
+| T3 | horas=-3, tarifa=20000          | rechazo sin detener programa | Correcto  |
+| T4 | horas=40, extra=8, tarifa=15000 | bruto=780000                 | Correcto  |
+| T5 | válido, inválido, válido        | éxitos=2, errores=1          | Correcto  |
 
+## Tecnologías Utilizadas
+C#
+
+.NET
+
+Consola
+
+Git
+
+GitHub
+
+# Ejemplo de Uso
+
+## Entrada:
+```text
+¿Cuántos empleados desea procesar?: 1
+
+Empleado 1 horas normales: 40
+Empleado 1 tarifa: 15000
+Empleado 1 horas extra: 8
+```
+
+## Salida:
+```text
+Empleado 1 procesado correctamente
+
+Salario bruto: $780,000.00
+Salario neto: $717,600.00
+```
+
+# Reflexión Técnica
+
+La refactorización permitió transformar un programa monolítico en una solución modular y mantenible. Se separaron las responsabilidades de lectura, validación, cálculo y presentación de resultados, facilitando la comprensión y reutilización del código. El patrón Try mejoró el manejo de errores sin interrumpir el procesamiento del lote completo, mientras que la sobrecarga permitió reutilizar el cálculo del salario bruto para diferentes escenarios. El resultado es un sistema más claro, escalable y alineado con las buenas prácticas de desarrollo de software.
