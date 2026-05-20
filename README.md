@@ -82,5 +82,6 @@ static double CalcularSalarioBruto(
     double horasExtra,
     double tarifaHora)
 ```
+La segunda versión calcula el recargo de horas extra utilizando un factor de 1.5.
 
 
