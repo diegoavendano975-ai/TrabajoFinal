@@ -31,6 +31,7 @@ Eliminar números mágicos mediante constantes.
 
 ## Arquitectura del Programa
 
+
 ```text
 Main()
 │
