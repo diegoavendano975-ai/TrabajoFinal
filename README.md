@@ -48,4 +48,19 @@ Main()
     ├── MostrarResumenLote()
     └── MostrarConsolidadoFinal()
 ```
+# Funciones Principales
+
+| Función                  | Responsabilidad                     |
+| ------------------------ | ----------------------------------- |
+| Main                     | Iniciar el programa                 |
+| ProcesarLoteEmpleados    | Coordinar el procesamiento del lote |
+| TryProcesarEmpleado      | Validar y calcular un empleado      |
+| DatosEmpleadoValidos     | Verificar reglas de validación      |
+| CalcularSalarioBruto     | Calcular salario bruto              |
+| CalcularSalarioNeto      | Calcular salario neto               |
+| MostrarResultadoEmpleado | Mostrar resultados individuales     |
+| MostrarErrorEmpleado     | Mostrar errores de validación       |
+| MostrarResumenLote       | Mostrar avance parcial              |
+| MostrarConsolidadoFinal  | Mostrar resumen final               |
+
 
