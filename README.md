@@ -27,7 +27,6 @@ Mejorar nombres de variables y funciones.
 
 Eliminar números mágicos mediante constantes.
 
-# Arquitectura del Programa
 
 ## Arquitectura del Programa
 
@@ -48,7 +47,7 @@ Main()
     ├── MostrarResumenLote()
     └── MostrarConsolidadoFinal()
 ```
-# Funciones Principales
+## Funciones Principales
 
 | Función                  | Responsabilidad                     |
 | ------------------------ | ----------------------------------- |
